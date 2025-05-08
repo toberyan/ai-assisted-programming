@@ -106,20 +106,27 @@ Cursor IDE 的界面继承了 VS Code 的布局，熟悉 VS Code 的用户可以
 
 Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 
-- **打开文件夹**：通过“文件 &gt; 打开文件夹”选择项目目录。（插图）
+- **打开文件夹**：通过“文件 &gt; 打开文件夹”选择项目目录。
+![image](https://github.com/user-attachments/assets/b78bfef6-945a-48da-b2f1-2ec8159e5910)
 - **文件操作**：创建、重命名、删除文件或文件夹。（插图）
-- **搜索**：使用快捷键 Ctrl/Cmd + T 或侧边栏搜索功能快速定位文件或代码。（插图）
-- **工作区管理**：支持多工作区，方便管理多个项目。（插图）
+![image](https://github.com/user-attachments/assets/7baefbbe-8113-4f1a-8ce4-3cf80c73784f)
+- **搜索**：使用快捷键 Ctrl/Cmd + T 或侧边栏搜索功能快速定位文件或代码。
+![image](https://github.com/user-attachments/assets/d1574fcb-732c-49b7-9c0f-912d852d3d2d)
+- **工作区管理**：支持多工作区，方便管理多个项目。
+![image](https://github.com/user-attachments/assets/5ef45c9f-e307-497b-8438-f45c207a4595)
 
 ### 3.2 代码编辑
 
 代码编辑功能包括：
 
-- **语法高亮**：支持多种编程语言，自动高亮代码结构。（插图）
-- **自动缩进**：根据语言规则自动调整缩进。（插图）
-- **代码折叠**：折叠函数或代码块以提高可读性。（插图）
-- **多光标编辑**：使用 Alt + 鼠标点击 或 Ctrl/Cmd + D 同时编辑多处。（插图）
-- **剪切板历史**：查看和恢复最近的剪贴板内容。（插图）
+- **语法高亮**：支持多种编程语言，自动高亮代码结构。
+![image](https://github.com/user-attachments/assets/444586b7-6370-45ed-b1aa-57edbf46233d)
+- **自动缩进**：根据语言规则自动调整缩进。
+![image](https://github.com/user-attachments/assets/d7223046-e873-4ef1-8ce3-88455f05b1f3)
+- **代码折叠**：折叠函数或代码块以提高可读性。
+![image](https://github.com/user-attachments/assets/8f663137-c61c-4c46-a7c3-fb98f6562c17)
+- **多光标编辑**：使用 Alt + 鼠标点击 或 Ctrl/Cmd + D 同时编辑多处。
+![录屏_选择区域_20250508204640](https://github.com/user-attachments/assets/44fd92e1-a03c-4c2d-a7c5-7b94769999fa)
 
 ### 3.3 代码补全
 
@@ -129,10 +136,14 @@ Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 
 代码导航功能帮助开发者快速定位和理解代码：
 
-- **转到定义**：右键点击变量或函数，选择“转到定义”或使用 F12。（插图）
-- **查找引用**：使用 Shift + F12 查看变量或函数的所有引用。（插图）
-- **符号搜索**：通过 Ctrl/Cmd + T 搜索项目中的符号（如类、函数）。（插图）
-- **面包屑导航**：编辑器顶部显示文件结构，方便跳转。（插图）
+- **转到定义**：右键点击变量或函数，选择“转到定义”或使用 F12。
+![录屏_选择区域_20250508205251](https://github.com/user-attachments/assets/a2c035b6-03cb-4410-81a1-22e53bc8af89)
+- **查找引用**：使用 Shift + F12 查看变量或函数的所有引用。
+![录屏_选择区域_20250508205356](https://github.com/user-attachments/assets/8c99b7fe-31b6-41aa-9e69-c82d8a55a074)
+- **符号搜索**：通过 Ctrl/Cmd + T 搜索项目中的符号（如类、函数）。
+![录屏_选择区域_20250508205520](https://github.com/user-attachments/assets/8ac45979-c675-41b5-97f3-3cc0b8a42d29)
+- **面包屑导航**：编辑器顶部显示文件结构，方便跳转。
+![image](https://github.com/user-attachments/assets/4ec32d6d-5858-4ae3-97be-3112dae8923e)
 
 ---
 
