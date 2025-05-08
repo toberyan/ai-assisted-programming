@@ -54,37 +54,49 @@ Cursor IDE 的核心功能包括：
 
 安装 Cursor IDE 的步骤简单：
 
-1. 访问 Cursor 官网 并点击“下载”按钮，安装程序会根据您的操作系统自动下载。（插图）
+1. 访问 Cursor 官网 并点击“下载”按钮，安装程序会根据您的操作系统自动下载。
+![image](https://github.com/user-attachments/assets/e8b853f2-8c72-4a13-bc1f-01e2e8eb2b33)
 2. 运行下载的安装程序，按照提示完成安装。
 3. 安装完成后，通过桌面快捷方式或应用程序菜单启动 Cursor。
 
-对于 Linux 用户，Cursor 提供 AppImage 格式，下载后需设置可执行权限（chmod +x Cursor.AppImage）并运行。（插图）
+对于 Linux 用户，Cursor 提供 AppImage 格式，下载后需设置可执行权限（chmod +x Cursor.AppImage）并运行。
 
 ### 2.2 登录和配置
 
 首次启动 Cursor 时，您可以进行以下配置：
 
 - **键盘快捷方式**：自定义快捷键以适应个人习惯。
-- **语言**：设置 IDE 显示语言，可在规则文档中进一步调整 AI 语言行为。（插图）
+- **语言**：设置 IDE 显示语言，可在规则文档中进一步调整 AI 语言行为。
+![image](https://github.com/user-attachments/assets/e27fd886-3dc8-48a0-b8ce-2743d59b39cf)
 - **代码库索引**：启用或禁用代码库索引以优化 AI 建议（详见 代码库索引）。
 - **CLI 快捷方式**：设置 cursor 和 code 命令，方便从终端启动。
-- **导入 VS Code 设置**：一键导入 VS Code 的扩展、主题、用户设置和键盘快捷方式。（插图）
+- **导入 VS Code 设置**：一键导入 VS Code 的扩展、主题、用户设置和键盘快捷方式。
+![image](https://github.com/user-attachments/assets/636e015d-2ebf-45f6-ab02-119f463d1fd8)
 - **数据隐私**：设置数据偏好，决定是否允许 AI 访问代码（详见 隐私页面）。
+![image](https://github.com/user-attachments/assets/be0b9ebc-27d7-43bb-9f8f-3a87128d7a41)
 
 ### 2.3 界面介绍
 
 Cursor IDE 的界面继承了 VS Code 的布局，熟悉 VS Code 的用户可以快速上手。主要组成部分包括：
 
-- **侧边栏**：包含资源管理器（文件管理）、搜索、源控制、扩展等面板。（插图）
-- **编辑器区域**：主区域，用于编写和编辑代码，支持多文件并排显示。（插图）
-- **状态栏**：显示当前文件的状态，如语言、编码格式、行号等。（插图）
-- **活动栏**：位于侧边栏左侧，用于快速切换不同视图（如资源管理器、调试、扩展）。（插图）
+- **侧边栏**：包含资源管理器（文件管理）、搜索、源控制、扩展等面板。
+
+  ![image](https://github.com/user-attachments/assets/ef7fa839-7433-4016-a64b-5ceb18462e7d)
+- **编辑器区域**：主区域，用于编写和编辑代码，支持多文件并排显示。
+![image](https://github.com/user-attachments/assets/85266c5c-63af-47d8-ad5a-1d818e5c8835)
+- **状态栏**：显示当前文件的状态，如语言、编码格式、行号等。
+![image](https://github.com/user-attachments/assets/56a8fc41-f25f-4e90-a462-3d6cc4af925c)
+- **活动栏**：位于侧边栏左侧，用于快速切换不同视图（如资源管理器、调试、扩展）。
+![image](https://github.com/user-attachments/assets/94f29082-9f6f-451c-9b3b-23c8db39fe4e)
 
 此外，Cursor IDE 在界面中集成了 AI 功能入口，如聊天窗口和 Tab 补全提示。主要组成部分包括：
 
-- **智能补全框：**用于编写代码过程中，嵌入 AI 智能补全建议，支持快速代码补全。（插图）
-- **AI辅助栏：**用于常规的 AI 辅助问答，最新 AI Agent 功能，传统的 AI Manual 功能。（插图）
-- **MCP扩展：**近期 Cursor 版本新添加功能，结合热门的 MCP 协议，提供各类 MCP 服务扩展和调用功能。（插图）
+- **智能补全框**：用于编写代码过程中，嵌入 AI 智能补全建议，支持快速代码补全。在编辑代码时，可以定位某个位置，或选中某段代码后，通过快捷键 Ctrl+k 触发
+![录屏_选择区域_20250508201158](https://github.com/user-attachments/assets/026c76d6-b09c-4624-a339-1b17012ffe97)
+- **AI辅助栏**：用于常规的 AI 辅助问答，最新 AI Agent 功能，传统的 AI Manual 功能。
+![录屏_选择区域_20250508202313](https://github.com/user-attachments/assets/38108181-e5d3-48ba-9ed8-e9bc7e21d031)
+- **MCP扩展**：近期 Cursor 版本新添加功能，结合热门的 MCP 协议，提供各类 MCP 服务扩展和调用功能。
+![image](https://github.com/user-attachments/assets/3fc7a48d-4db9-41eb-a930-aaf2e9f2adbf)
 
 ---
 
