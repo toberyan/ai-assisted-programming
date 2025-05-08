@@ -117,7 +117,7 @@ Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 ![image](https://github.com/user-attachments/assets/d1574fcb-732c-49b7-9c0f-912d852d3d2d)
 - **工作区管理**：支持多工作区，方便管理多个项目。
 
-![image](https://github.com/user-attachments/assets/5ef45c9f-e307-497b-8438-f45c207a4595)
+![image](https://github.com/user-attachments/assets/848251e6-f179-4bf3-96b8-a0edbc8750be)
 
 ### 3.2 代码编辑
 
