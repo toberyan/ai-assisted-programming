@@ -55,7 +55,9 @@ Cursor IDE 的核心功能包括：
 安装 Cursor IDE 的步骤简单：
 
 1. 访问 Cursor 官网 并点击“下载”按钮，安装程序会根据您的操作系统自动下载。
+
 ![image](https://github.com/user-attachments/assets/e8b853f2-8c72-4a13-bc1f-01e2e8eb2b33)
+
 2. 运行下载的安装程序，按照提示完成安装。
 3. 安装完成后，通过桌面快捷方式或应用程序菜单启动 Cursor。
 
@@ -67,12 +69,17 @@ Cursor IDE 的核心功能包括：
 
 - **键盘快捷方式**：自定义快捷键以适应个人习惯。
 - **语言**：设置 IDE 显示语言，可在规则文档中进一步调整 AI 语言行为。
+
 ![image](https://github.com/user-attachments/assets/e27fd886-3dc8-48a0-b8ce-2743d59b39cf)
+
 - **代码库索引**：启用或禁用代码库索引以优化 AI 建议（详见 代码库索引）。
 - **CLI 快捷方式**：设置 cursor 和 code 命令，方便从终端启动。
 - **导入 VS Code 设置**：一键导入 VS Code 的扩展、主题、用户设置和键盘快捷方式。
+
 ![image](https://github.com/user-attachments/assets/636e015d-2ebf-45f6-ab02-119f463d1fd8)
+
 - **数据隐私**：设置数据偏好，决定是否允许 AI 访问代码（详见 隐私页面）。
+
 ![image](https://github.com/user-attachments/assets/be0b9ebc-27d7-43bb-9f8f-3a87128d7a41)
 
 ### 2.3 界面介绍
@@ -82,21 +89,33 @@ Cursor IDE 的界面继承了 VS Code 的布局，熟悉 VS Code 的用户可以
 - **侧边栏**：包含资源管理器（文件管理）、搜索、源控制、扩展等面板。
 
   ![image](https://github.com/user-attachments/assets/ef7fa839-7433-4016-a64b-5ceb18462e7d)
+  
 - **编辑器区域**：主区域，用于编写和编辑代码，支持多文件并排显示。
+
 ![image](https://github.com/user-attachments/assets/85266c5c-63af-47d8-ad5a-1d818e5c8835)
+
 - **状态栏**：显示当前文件的状态，如语言、编码格式、行号等。
+
 ![image](https://github.com/user-attachments/assets/56a8fc41-f25f-4e90-a462-3d6cc4af925c)
+
 - **活动栏**：位于侧边栏左侧，用于快速切换不同视图（如资源管理器、调试、扩展）。
+
 ![image](https://github.com/user-attachments/assets/94f29082-9f6f-451c-9b3b-23c8db39fe4e)
 
 此外，Cursor IDE 在界面中集成了 AI 功能入口，如聊天窗口和 Tab 补全提示。主要组成部分包括：
 
 - **智能补全框**：用于编写代码过程中，嵌入 AI 智能补全建议，支持快速代码补全。在编辑代码时，可以定位某个位置，或选中某段代码后，通过快捷键 Ctrl+k 触发
+
 ![录屏_选择区域_20250508201158](https://github.com/user-attachments/assets/026c76d6-b09c-4624-a339-1b17012ffe97)
+
 - **AI辅助栏**：用于常规的 AI 辅助问答，最新 AI Agent 功能，传统的 AI Manual 功能。
+
 ![录屏_选择区域_20250508202313](https://github.com/user-attachments/assets/38108181-e5d3-48ba-9ed8-e9bc7e21d031)
+
 - **MCP扩展**：近期 Cursor 版本新添加功能，结合热门的 MCP 协议，提供各类 MCP 服务扩展和调用功能。
+
 ![image](https://github.com/user-attachments/assets/3fc7a48d-4db9-41eb-a930-aaf2e9f2adbf)
+
 
 ---
 
@@ -109,12 +128,15 @@ Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 - **打开文件夹**：通过“文件 &gt; 打开文件夹”选择项目目录。
   
 ![image](https://github.com/user-attachments/assets/b78bfef6-945a-48da-b2f1-2ec8159e5910)
+
 - **文件操作**：创建、重命名、删除文件或文件夹。
 
 ![image](https://github.com/user-attachments/assets/7baefbbe-8113-4f1a-8ce4-3cf80c73784f)
+
 - **搜索**：使用快捷键 Ctrl/Cmd + T 或侧边栏搜索功能快速定位文件或代码。
 
 ![image](https://github.com/user-attachments/assets/d1574fcb-732c-49b7-9c0f-912d852d3d2d)
+
 - **工作区管理**：支持多工作区，方便管理多个项目。
 
 ![image](https://github.com/user-attachments/assets/848251e6-f179-4bf3-96b8-a0edbc8750be)
@@ -126,12 +148,15 @@ Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 - **语法高亮**：支持多种编程语言，自动高亮代码结构。
 
 ![image](https://github.com/user-attachments/assets/444586b7-6370-45ed-b1aa-57edbf46233d)
+
 - **自动缩进**：根据语言规则自动调整缩进。
 
 ![image](https://github.com/user-attachments/assets/d7223046-e873-4ef1-8ce3-88455f05b1f3)
+
 - **代码折叠**：折叠函数或代码块以提高可读性。
 
 ![image](https://github.com/user-attachments/assets/8f663137-c61c-4c46-a7c3-fb98f6562c17)
+
 - **多光标编辑**：使用 Alt + 鼠标点击 或 Ctrl/Cmd + D 同时编辑多处。
   
 ![录屏_选择区域_20250508204640](https://github.com/user-attachments/assets/44fd92e1-a03c-4c2d-a7c5-7b94769999fa)
@@ -147,12 +172,15 @@ Cursor IDE 提供强大的文件管理功能，类似于 VS Code：
 - **转到定义**：右键点击变量或函数，选择“转到定义”或使用 F12。
   
 ![录屏_选择区域_20250508205251](https://github.com/user-attachments/assets/a2c035b6-03cb-4410-81a1-22e53bc8af89)
+
 - **查找引用**：使用 Shift + F12 查看变量或函数的所有引用。
   
 ![录屏_选择区域_20250508205356](https://github.com/user-attachments/assets/8c99b7fe-31b6-41aa-9e69-c82d8a55a074)
+
 - **符号搜索**：通过 Ctrl/Cmd + T 搜索项目中的符号（如类、函数）。
   
 ![录屏_选择区域_20250508205520](https://github.com/user-attachments/assets/8ac45979-c675-41b5-97f3-3cc0b8a42d29)
+
 - **面包屑导航**：编辑器顶部显示文件结构，方便跳转。
   
 ![image](https://github.com/user-attachments/assets/4ec32d6d-5858-4ae3-97be-3112dae8923e)
